@@ -67,7 +67,7 @@ public class Component extends Applet implements Runnable {
 		frame.add(component);
 		frame.pack();
 		frame.setTitle(name);
-		frame.setResizable(false);
+		frame.setResizable(true);
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setIconImage(new ImageIcon("res/anthonycraft.png").getImage());
