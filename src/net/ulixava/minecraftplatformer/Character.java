@@ -24,11 +24,11 @@ public class Character extends Rectangle {
 	}
 	
 	public void moveRight() {
-		movementSpeed = 4;
+		movementSpeed = 3;
 	}
 	
 	public void moveLeft() {
-		movementSpeed = -4;
+		movementSpeed = -3;
 	}
 	
 	public void dig() {
