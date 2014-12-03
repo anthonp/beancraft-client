@@ -40,43 +40,43 @@ public class Character extends Rectangle {
 
 		if (block.id == Tile.diamond) {
 			System.out.println("You found a diamond!");
-			Component.component.textoutput.showMessage("You found a dimond!", 50);
+			Component.component.textoutput.showMessage("You found a dimond!", 100);
 		}
 		
 		if (block.id == Tile.barite) {
 			System.out.println("You found blue barite!");
-			Component.component.textoutput.showMessage("You found blue barite chunks!", 50);
+			Component.component.textoutput.showMessage("You found blue barite chunks!", 100);
 		}
 		
 		if (block.id == Tile.ruby) {
 			System.out.println("You found a ruby!");
-			Component.component.textoutput.showMessage("You found a ruby!", 50);
+			Component.component.textoutput.showMessage("You found a ruby!", 100);
 		}
 		
 		if (block.id == Tile.gold) {
 			System.out.println("You found some gold!");
-			Component.component.textoutput.showMessage("You found gold chunks!", 50);
+			Component.component.textoutput.showMessage("You found gold chunks!", 100);
 		}
 		
 		if (block.id == Tile.treasure) {
 			System.out.println("You found a weapon!");
-			Component.component.textoutput.showMessage("You have found the way to get to new levels!", 50);
+			Component.component.textoutput.showMessage("You have found the way to get to new levels!", 100);
 			Component.component.goToLevel(2);
 		}
 		
 		if (block.id == Tile.iron) {
 			System.out.println("You found iron.");
-			Component.component.textoutput.showMessage("You have found some iron", 50);
+			Component.component.textoutput.showMessage("You have found some iron", 100);
 		}
 		
 		if (block.id == Tile.coal) {
 			System.out.println("You found coal.");
-			Component.component.textoutput.showMessage("You have found some coal", 50);
+			Component.component.textoutput.showMessage("You have found some coal", 100);
 		}
 		
 		if (block.id == Tile.girlspawn) {
 			System.out.println("You found a girl.");
-			Component.component.textoutput.showMessage("You have found a girl", 50);
+			Component.component.textoutput.showMessage("You have found a girl", 100);
 			Component.component.createCompanion();
 		}
 		
